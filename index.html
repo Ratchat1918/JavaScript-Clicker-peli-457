@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Peli</title>
+    <style href="style.css" rel="stylesheet">
+        body{
+            justify-content: center;
+        }
+        div{
+            justify-content: center;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        label{
+            font-size: large
+        }
+        p{
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label id="scorelabel" for="score">Score:</label>
+        <p id="score">0</p>
+        <button id="increaseBtn"><img id="myImg" src="tanki_kunossa.png" alt="Click"></button>
+    </div>
+    <div>
+        <button id="buyBtnX2">2x power up: 10 points</button>
+        <p id="warning"></p>
+    </div>
+    <div>
+        <button id="buyBtnX5">5x power up: 100 points</button>
+        <p id="warning2"></p>
+    </div>
+    <div>
+        <button id="buyBtnX10">10x power up: 1000 points</button>
+        <p id="warning3"></p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
